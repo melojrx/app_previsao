@@ -13,8 +13,8 @@ Para subir a API vamos usar o microframework python FLASK.
 1. Clone do Projeto: 
 
     ```bash
-    git clone xxx
-    cd 
+    git clone [xxx](https://github.com/melojrx/app_previsao.git)
+    cd app_previsao
     ```
 2. Criar e Ativar o abmiente virtual:
     
@@ -163,3 +163,6 @@ Para subir a API vamos usar o microframework python FLASK.
   "Negotiation Type_sale": 1,
   "Property Type_apartment": 1
 }
+
+Observação: Ao salvar os arquivos do modelo: features.names e model.joblib por questão de simplificação 
+eles são salvos na pasta raiz do notebook. *Copiar os arquivos para a pasta model para que o script app.py funcione corretamente.*
